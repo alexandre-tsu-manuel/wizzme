@@ -1,0 +1,175 @@
+/* Contact only */
+form p, form input {font-size: 1.2em;}
+#contactSection
+{
+	position: absolute;
+	top: 60px;
+	width: 98%;
+}
+#contactSection .shoutbox
+{
+	margin-left: 20%;
+	font-weight: bold;
+}
+form input, form textarea
+{
+	border-radius: 6px;
+	margin-left: 10px;
+	border: none;
+}
+textarea
+{
+	width: 30%;
+	height: 160px;
+}
+label
+{
+	color: white;
+	font-family: 'Fugaz One', cursive;
+	width: 10%;
+	text-align: right;
+	float: left;
+	margin-left: 10%;
+}
+
+/* Both sheets */
+body {background-color: #09b3b0;}
+@font-face
+{
+	font-family: "C5";
+	src: url("Chunkfive.otf") format("opentype");
+}
+.c5
+{
+	font-family: "C5", Verdana, sans-serif;
+	color: #09b3b0;
+}
+.c5white
+{
+	font-family: "C5", Verdana, sans-serif;
+	color: white;
+}
+header p, #partnersSection p
+{
+	margin-left: 10%;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #09b3b0;
+}
+#menu {cursor: pointer;}
+header
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	background-image: url("img/font.png");
+	background-repeat: repeat-x;
+	height: 54px;
+}
+
+/* Index only */
+.sprite {left: 0px;}
+#chassis
+{
+	box-shadow: 15px 15px 15px silver;
+	border-radius: 35px;
+	position: absolute;
+	top: 800px;
+	right: 200px;
+}
+.sprites
+{
+	position: absolute;
+	top: 168px;
+	margin-left: 10%;
+	overflow: hidden;
+	height: 328px;
+	width: 203px;
+}
+#indexSection
+{
+	top: 75px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: absolute;
+	float: left;
+	height: 700px;
+	overflow: hidden;
+}
+#partnersSection
+{
+	top: 75px;
+	margin-right: 10%;
+	margin-left: 10%;
+	position: absolute;
+	height: 700px;
+}
+#iphones
+{
+	position: absolute;
+	top: 75px;
+	margin-left: 50%;
+}
+#big
+{
+	position: absolute;
+	z-index: 5;
+}
+#little
+{
+	position: absolute;
+	left: 130px;
+	top: 40px;
+	z-index: 1;
+}
+#firstSprite, #secondSprite, #thirdSprite
+{
+	position: absolute;
+	z-index: 10;
+	top: 112px;
+	left: 30px;
+}
+#backSprite
+{
+	position: absolute;
+	z-index: 3;
+	top: 143px;
+	left: 136px;
+}
+#indexSection p
+{
+	color: white;
+	width: 410px;
+	text-align: center;
+	font-size: 1.3em;
+}
+strong
+{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+#indexSubSection
+{
+	position: absolute;
+	margin-top: 760px;
+	left: 0px;
+	right: 0px;
+	height: 350px;
+	background-color: #eeeeee;
+	color: #09b3b0;
+}
+#indexSubSection h2
+{
+	font-family: "C5", Verdana, sans-serif;
+	font-variant: small-caps;
+	font-size: 3em;
+	margin-left: 12%;
+}
+#indexSubSection p
+{
+	line-height: 2em;
+	font-size: 1.3em;
+	margin-left: 12%;
+}
